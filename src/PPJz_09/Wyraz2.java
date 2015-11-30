@@ -6,7 +6,7 @@ package PPJz_09;
 public class Wyraz2 {
     public String a;
     public Wyraz2 b;
-
+//
     public Wyraz2(String a){
         this.a = a;
     }
