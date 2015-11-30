@@ -6,8 +6,8 @@ package PPJz_09;
 public class Wyraz2 {
     public String a;
     public Wyraz2 b;
-    //
-
+    public int i;
+    // kurde mol
     public Wyraz2(String a){
         this.a = a;
     }
