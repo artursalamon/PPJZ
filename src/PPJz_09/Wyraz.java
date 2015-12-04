@@ -12,6 +12,10 @@ public class Wyraz {
         this.b=0;
     }
 
+    public Wyraz(String a) {
+        this.a = a;
+    }
+
     public void dodajZnak(char znak){
         a+=znak;
         b++;
@@ -22,6 +26,6 @@ public class Wyraz {
     }
 
     public int length(){
-        return b;
+        return a.length();
     }
 }

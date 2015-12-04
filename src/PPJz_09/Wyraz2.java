@@ -9,15 +9,16 @@ public class Wyraz2 {
 //
     public Wyraz2(String a){
         this.a = a;
+        this.b =null;
     }
 
-    public void setNastepnyWyraz(String b){
-        this.b = new Wyraz2(b);
+    public void setNastepnyWyraz(String x){
+        this.b = new Wyraz2(x);
     }
 
     public void show(){
         System.out.print(a);
-        if(b!=null)
+        if(this.b !=null)
             b.show();
     }
 }

@@ -15,7 +15,7 @@ public class Main {
         figura3.show();
         System.out.println();
         System.out.println();
-        Wyraz wyraz = new Wyraz();
+        Wyraz wyraz = new Wyraz("kurdemol");
         wyraz.dodajZnak('a');
         wyraz.dodajZnak('r');
         wyraz.dodajZnak('a');
@@ -25,7 +25,7 @@ public class Main {
         System.out.println(wyraz.toString());
         System.out.println(wyraz.length());
         System.out.println();
-        System.out.println();
+
         Wyraz2 wyraz2 = new Wyraz2("Ala ");
         wyraz2.setNastepnyWyraz("ma ");
         wyraz2.b.setNastepnyWyraz("kota ");
@@ -33,6 +33,7 @@ public class Main {
         wyraz2.b.b.b.setNastepnyWyraz("kot ");
         wyraz2.b.b.b.b.setNastepnyWyraz("ma ");
         wyraz2.b.b.b.b.b.setNastepnyWyraz("Ale");
+        //System.out.println(wyraz2);
         wyraz2.show();
 
     }
