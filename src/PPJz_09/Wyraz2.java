@@ -9,15 +9,15 @@ public class Wyraz2 {
 //
     public Wyraz2(String a){
         this.a = a;
-        this.b =null;
     }
 
     public void setNastepnyWyraz(String x){
         this.b = new Wyraz2(x);
 
-        while(this.b != null)
-          this = this.b;
-        this.b = new Wyraz2(x);
+
+//      while(this.b != null)
+//      this = this.b;
+//      this.b = new Wyraz2(x);
 
 
 
