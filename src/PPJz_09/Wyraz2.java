@@ -16,7 +16,7 @@ public class Wyraz2 {
         this.b = new Wyraz2(x);
 
         while(this.b != null)
-     //       this = this.b;
+          this = this.b;
         this.b = new Wyraz2(x);
 
 
